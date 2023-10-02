@@ -2,7 +2,14 @@ class Student{
     String name;
     int rollno;
     int marks;
+    Student(){
 
+    }
+    Student(int newMarks, int rollNo, String Name){
+        marks = newMarks;
+        rollno = rollNo;
+        name = Name;
+    }
     void study(String subject){
         System.out.println("The student is studying "+subject);
     }
@@ -10,10 +17,7 @@ class Student{
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        Student ashutosh = new Student();
-        ashutosh.name = "Ashutosh Pandey";
-        ashutosh.rollno = 1;
-        ashutosh.marks = 100;
+        Student ashutosh = new Student(100, 1, "Ashutosh Pandey");
         ashutosh.study("DSA & LLD");
         System.out.println(ashutosh.name+" "+ashutosh.marks+" "+ashutosh.rollno);
     }
