@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ClassAndObject/ClassAndObject.iml" filepath="$PROJECT_DIR$/ClassAndObject/ClassAndObject.iml" />
       <module fileurl="file://$PROJECT_DIR$/Constructor/Constructor.iml" filepath="$PROJECT_DIR$/Constructor/Constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cuboi/Cuboid.iml" filepath="$PROJECT_DIR$/Cuboi/Cuboid.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java OOPS.iml" filepath="$PROJECT_DIR$/.idea/Java OOPS.iml" />
     </modules>
   </component>
